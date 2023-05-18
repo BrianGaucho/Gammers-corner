@@ -371,8 +371,6 @@ button {
     font-size: 50px;
     color: #2d343e;
     font-weight: 600;
-    text-transform: uppercase;
-    text-align: right;
 }
 
 .lorem_text{
@@ -381,7 +379,7 @@ button {
     font-size: 16px;
     color: #2d343e;
     margin-left: 0px;
-    text-align: right;
+    /* text-align: right; */
 }
 
 .shop_bt_2 {
@@ -632,11 +630,7 @@ button {
 .email_box {
     width: 100%;
     float: left;
-    /* background-color: #ffffff; */
-    /* border-radius: 20px; */
     height: auto;
-    /* padding: 50px 20px; */
-    /* opacity: 0.80; */
 }
 
 .email-bt {
@@ -755,11 +749,14 @@ button {
 }
 
 .useful_link li a{
-    color: #ffffff;
+    color: #fff;
+    text-decoration: none;
 }
 
 .useful_link li a:hover{
-    color: #599ee9;
+    /* color: #599ee9; */
+    text-decoration: underline !important;
+    padding-left: 5px;
 }
 
 .footer_section_2 {
@@ -768,7 +765,14 @@ button {
     border-bottom: 1px solid #898989;
     padding-bottom: 40px;
 }
+.cont{
+    text-decoration: none;
+    color: #fff;
+}
 
+.cont:hover{
+    text-decoration: underline;
+}
 .social_icon {
     width: 19%;
     margin: 0 auto;
@@ -784,6 +788,11 @@ button {
     float: left;
     padding-right: 20px;
     padding-top: 40px;
+    font-size: 20px;
+}
+
+.social_icon ul li a:hover{
+    font-size: 10px;
 }
 
 .copyright_section{
