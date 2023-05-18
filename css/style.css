@@ -37,9 +37,9 @@ body {
      margin-top: 50px;
 }
 
-/* .vedeo{
+.vedeo{
     margin-top: 40px !important;
-} */
+} 
 
 a {
      color: #1f1f1f;
@@ -481,11 +481,10 @@ button {
 
 .vide{
     border-radius: 5px;
-    background-position-x: left;
     right: 0;
     bottom: 0;
-    min-width: 100% !important;
-    min-height: 100%; 
+    width: 100% !important;
+    height: 100%; 
 }
 
 .vodo{
