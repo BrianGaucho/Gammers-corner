@@ -84,14 +84,6 @@ pre {
   font-size: 1em; /* 2 */
 }
 
-/* Text-level semantics
-   ========================================================================== */
-
-/**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
- */
-
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
@@ -318,9 +310,7 @@ progress {
   vertical-align: baseline; /* 2 */
 }
 
-/**
- * Remove the default vertical scrollbar in IE.
- */
+
 
 textarea {
   overflow: auto;

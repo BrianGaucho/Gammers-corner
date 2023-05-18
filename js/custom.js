@@ -370,3 +370,15 @@ $(function () {
 
 
 });
+
+
+const videoContainer = document.querySelector('.vodo');
+    const video = videoContainer.querySelector('video');
+
+    videoContainer.addEventListener('mouseenter', () => {
+      video.play();
+    });
+
+    videoContainer.addEventListener('mouseleave', () => {
+      video.pause();
+    });
