@@ -471,6 +471,8 @@ button {
     width: 100%;
     /* float: left; */
     background-image: url(../images/video-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: auto;
     /* margin-top: 90px; */
     /* align-items: center; */
