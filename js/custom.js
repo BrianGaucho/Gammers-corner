@@ -382,3 +382,44 @@ const videoContainer = document.querySelector('.vodo');
     videoContainer.addEventListener('mouseleave', () => {
       video.pause();
     });
+
+	document.querySelector('.myForm').addEventListener('submit', function(event) {
+		event.preventDefault(); // Prevents the form from being submitted
+	  
+		var nameInput = document.querySelector('input[fname="Name"]');
+		var emailInput = document.querySelector('input[fname="Email"]');
+		var phoneInput = document.querySelector('input[fname="Phone Number"]');
+		var messageInput = document.querySelector('textarea[fname="Massage"]');
+	  
+		// Validate name field
+		if (nameInput.value.trim() === '') {
+		  alert('Please enter your name.');
+		  nameInput.focus();
+		  return;
+		}
+	  
+		// Validate email field
+		if (emailInput.value.trim() === '') {
+		  alert('Please enter your email.');
+		  emailInput.focus();
+		  return;
+		}
+	  
+		// Validate phone number field
+		if (phoneInput.value.trim() === '') {
+		  alert('Please enter your phone number.');
+		  phoneInput.focus();
+		  return;
+		}
+	  
+		// Validate message field
+		if (messageInput.value.trim() === '') {
+		  alert('Please enter your message.');
+		  messageInput.focus();
+		  return;
+		}
+	  
+		// If all fields are filled, proceed with form submission
+		this.submit();
+	  });
+	  
