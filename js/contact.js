@@ -19,3 +19,12 @@ function openmenu(){
 function closemenu(){
     sidemenu.style.right="-30vw"
 }
+
+
+// let username
+
+// document.getElementById("sbt").onclick = function(){
+//     username = document.getElementById("btn1").value;
+//     console.log(username);
+//     alert (document.getElementById("lab").innerHTML = "Hello " +username)
+// }
