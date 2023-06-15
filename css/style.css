@@ -240,11 +240,11 @@ button {
     margin-right: 40px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #4f99e5;
+    color: orangered;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #4f99e5;
+    color: orangered;
 }
 
 .banner_section {
@@ -274,7 +274,7 @@ button {
     width: 100%;
     float: left;
     font-size: 70px;
-    color: #599ee9;
+    color: orangered;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 50px;
@@ -309,7 +309,7 @@ button {
     color: #191919;
 }
 .shop_bt a:hover{
-    color: #599ee9;
+    color: orangered;
 }
 
 #my_slider a.carousel-control-prev {
@@ -329,7 +329,7 @@ button {
 }
 
 #my_slider .carousel-control-prev:hover, #my_slider .carousel-control-next:hover, #my_slider .carousel-control-prev:focus, #my_slider .carousel-control-next:focus {
-    background: #599ee9;
+    background: orangered;
     color: #fff;
 }
 #my_slider a.carousel-control-next {
@@ -375,11 +375,11 @@ button {
     text-align: center;
     background-color: #fcfcfd;
     color: #191919;
-    border-left: 10px solid #599ee9;
+    border-left: 10px solid orangered;
     border-radius: 30px;
-    border-right: 10px solid #599ee9;
-    border-top: 4px solid #599ee9;
-    border-bottom: 4px solid #599ee9;
+    border-right: 10px solid orangered;
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
     padding: 5px 0px;
     margin-top: 40px;
 }
@@ -388,7 +388,7 @@ button {
     color: #191919;
 }
 .shop_bt_2 a:hover{
-    color: #599ee9;
+    color: orangered;
 }
 
 .product_section{
@@ -450,11 +450,11 @@ button {
     text-align: center;
     background-color: #fcfcfd;
     color: #191919;
-    border-left: 10px solid #599ee9;
+    border-left: 10px solid orangered;
     border-radius: 30px;
-    border-right: 10px solid #599ee9;
-    border-top: 4px solid #599ee9;
-    border-bottom: 4px solid #599ee9;
+    border-right: 10px solid orangered;
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
     padding: 5px 0px;
     margin-top: 40px;
 }
@@ -463,7 +463,7 @@ button {
     color: #191919;
 }
 .see_bt a:hover{
-    color: #599ee9;
+    color: orangered;
 }
 
 .video_section{
@@ -490,7 +490,7 @@ button {
     width: 100%;
     float: left;
     font-size: 50px;
-    color: #599ee9;
+    color: orangered;
     font-weight: 500;
     text-transform: uppercase;
 
@@ -574,7 +574,7 @@ button {
 .client_main{
     width: 45%;
     float: left;
-    background-color: #599ee9;
+    background-color: orangered;
     height: auto;
 }
 
@@ -644,6 +644,8 @@ button {
 }
 
 .email-bt {
+    align-items: center;
+    justify-content: center;
     color: #fff;
     width: 100%;
     height: 55px;
@@ -658,8 +660,11 @@ form{
     align-items: center;
     justify-content: center;
     background-color: #0000003d;
-    border-radius: 5px;
+    border-radius: 3px;
+    margin-top: 40px;
+    height: 510px;
 }
+
 
 .massage-bt {
     color: #fff;
@@ -683,7 +688,7 @@ form{
 .main_bt {
     background: #ffd700;
     border: none;
-    color: #faf9f9;
+    color: aliceblue;
     width: 160px;
     height: 48px;
     font-size: 24px;
@@ -707,6 +712,7 @@ form{
     color: #000;
     font-weight: bold;
 }
+
 
 .ipsum_text_2 {
     width: 100%;
@@ -750,7 +756,7 @@ form{
     float: left;
     font-size: 16pt;
     color: #eceaea;
-    background-color: #599ee9;
+    background-color: orangered;
     padding: 5px 0px;
     border: 0px;
     text-align: center;
@@ -779,7 +785,7 @@ form{
 }
 
 .useful_link li a:hover{
-    /* color: #599ee9; */
+    /* color: orangered; */
     text-decoration: underline !important;
     padding-left: 5px;
 }
